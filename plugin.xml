@@ -41,8 +41,5 @@
     <platform name="ios">
         <pods-config ios-min-version="9.0" use-frameworks="true" />
         <pod id="GoogleMobileAdsMediationInMobi" version="7.0.4.0" />
-
-        <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
-        <dependency id="cordova-plugin-cocoapod-support" />
     </platform>
 </plugin>
